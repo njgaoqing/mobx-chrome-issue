@@ -1,0 +1,11 @@
+{
+  "name": "mobx-chrome-issue",
+  "description": "example showing that mobx doesn't work across frames",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "background": {
+    "page": "background.html",
+    "persistent": true
+  },
+  "options_page": "options.html"
+}
